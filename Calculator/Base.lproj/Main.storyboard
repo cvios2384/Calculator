@@ -26,6 +26,9 @@
                                     </backgroundConfiguration>
                                     <color key="baseForegroundColor" systemColor="systemBackgroundColor"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="divisionTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="11G-lm-tcq"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RiO-HP-NI8">
                                 <rect key="frame" x="295" y="286" width="81" height="110"/>
@@ -37,6 +40,9 @@
                                     </backgroundConfiguration>
                                     <color key="baseForegroundColor" systemColor="systemBackgroundColor"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="multiplicationTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cLe-qb-KR2"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kYR-HO-MyV">
                                 <rect key="frame" x="295" y="404" width="81" height="110"/>
@@ -48,6 +54,9 @@
                                     </backgroundConfiguration>
                                     <color key="baseForegroundColor" systemColor="systemBackgroundColor"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="subtractionTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="z6d-Rk-oVx"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zf4-90-vsX">
                                 <rect key="frame" x="202" y="522" width="81" height="110"/>
@@ -59,6 +68,9 @@
                                     </backgroundConfiguration>
                                     <color key="baseForegroundColor" systemColor="systemBackgroundColor"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="oneTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7Zs-55-6UE"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6pC-3H-AcT">
                                 <rect key="frame" x="202" y="640" width="81" height="110"/>
@@ -92,6 +104,9 @@
                                     </backgroundConfiguration>
                                     <color key="baseForegroundColor" systemColor="systemBackgroundColor"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="sevenTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="D8l-rC-sOs"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tzh-dA-CGM">
                                 <rect key="frame" x="202" y="404" width="81" height="110"/>
@@ -103,6 +118,9 @@
                                     </backgroundConfiguration>
                                     <color key="baseForegroundColor" systemColor="systemBackgroundColor"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="fourTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zmJ-dO-jDG"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jnK-Fb-4cF">
                                 <rect key="frame" x="295" y="522" width="81" height="110"/>
@@ -114,6 +132,9 @@
                                     </backgroundConfiguration>
                                     <color key="baseForegroundColor" systemColor="systemBackgroundColor"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="additionTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3FL-Lb-smd"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OtT-PU-QJu">
                                 <rect key="frame" x="295" y="640" width="81" height="110"/>
@@ -125,6 +146,9 @@
                                     </backgroundConfiguration>
                                     <color key="baseForegroundColor" systemColor="systemBackgroundColor"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="equalsTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="a80-Uj-Ozz"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u1K-gi-4a6">
                                 <rect key="frame" x="109" y="168" width="81" height="110"/>
@@ -166,6 +190,9 @@
                                     </backgroundConfiguration>
                                     <color key="baseForegroundColor" systemColor="systemBackgroundColor"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="nineTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wL1-AY-sDW"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jXy-7K-5CM">
                                 <rect key="frame" x="16" y="404" width="81" height="110"/>
@@ -177,6 +204,9 @@
                                     </backgroundConfiguration>
                                     <color key="baseForegroundColor" systemColor="systemBackgroundColor"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="sixTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1h4-5G-KMP"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DeZ-Ew-0vs">
                                 <rect key="frame" x="16" y="522" width="81" height="110"/>
@@ -188,6 +218,9 @@
                                     </backgroundConfiguration>
                                     <color key="baseForegroundColor" systemColor="systemBackgroundColor"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="threeTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YmI-RL-8y3"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qza-pu-dPn">
                                 <rect key="frame" x="109" y="286" width="81" height="110"/>
@@ -199,6 +232,9 @@
                                     </backgroundConfiguration>
                                     <color key="baseForegroundColor" systemColor="systemBackgroundColor"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="eightTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZMo-bg-dEp"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tXz-Gz-JEE">
                                 <rect key="frame" x="109" y="404" width="81" height="110"/>
@@ -210,6 +246,9 @@
                                     </backgroundConfiguration>
                                     <color key="baseForegroundColor" systemColor="systemBackgroundColor"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="fiveTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="g37-Af-4CB"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vwB-Lj-olf">
                                 <rect key="frame" x="109" y="522" width="81" height="110"/>
@@ -221,6 +260,9 @@
                                     </backgroundConfiguration>
                                     <color key="baseForegroundColor" systemColor="systemBackgroundColor"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="twoTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="syp-Zn-KpM"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a1D-yG-VYx">
                                 <rect key="frame" x="16" y="640" width="174" height="110"/>
@@ -232,15 +274,37 @@
                                     </backgroundConfiguration>
                                     <color key="baseForegroundColor" systemColor="systemBackgroundColor"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="zeroTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bTS-38-isg"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="labelColor"/>
                     </view>
+                    <connections>
+                        <outlet property="brnAddition" destination="jnK-Fb-4cF" id="Qz0-ma-wdR"/>
+                        <outlet property="btnDivide" destination="CKq-Ce-epS" id="3oY-VH-yIE"/>
+                        <outlet property="btnEight" destination="qza-pu-dPn" id="TDX-vi-QU8"/>
+                        <outlet property="btnEquals" destination="OtT-PU-QJu" id="M7z-Be-pR7"/>
+                        <outlet property="btnFive" destination="tXz-Gz-JEE" id="Vra-xz-kUC"/>
+                        <outlet property="btnFour" destination="Tzh-dA-CGM" id="v25-A3-gGZ"/>
+                        <outlet property="btnMultiply" destination="RiO-HP-NI8" id="vVa-Lp-1XW"/>
+                        <outlet property="btnNine" destination="edr-ts-LJY" id="7Qi-X0-DyQ"/>
+                        <outlet property="btnOne" destination="zf4-90-vsX" id="kxu-6T-m9O"/>
+                        <outlet property="btnPoint" destination="6pC-3H-AcT" id="Mje-fD-vQf"/>
+                        <outlet property="btnSeven" destination="zRB-J9-Hdz" id="K02-qw-Cd0"/>
+                        <outlet property="btnSix" destination="jXy-7K-5CM" id="8kj-vV-mjg"/>
+                        <outlet property="btnSubtract" destination="kYR-HO-MyV" id="N2A-vm-49j"/>
+                        <outlet property="btnThree" destination="DeZ-Ew-0vs" id="N1S-BJ-7Ub"/>
+                        <outlet property="btnTwo" destination="vwB-Lj-olf" id="TOh-RP-Vu8"/>
+                        <outlet property="btnZero" destination="a1D-yG-VYx" id="qBg-H9-Ibp"/>
+                        <outlet property="lblOutput" destination="DHC-aP-vkO" id="Nx6-Gk-zco"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="21.538461538461537" y="3.5545023696682461"/>
+            <point key="canvasLocation" x="-560" y="70"/>
         </scene>
     </scenes>
     <resources>
