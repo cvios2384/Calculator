@@ -68,6 +68,11 @@ class ViewController: UIViewController {
     // on the Output label
     var displayIndex = 0
     
+    // this flag determines whether or not
+    // pressing the decimal point has any
+    // effect on the display
+    var hasDot: Bool = false
+    
     // enumeration for the type of
     // mathematical operation chosen
     enum Operation {
@@ -118,6 +123,8 @@ class ViewController: UIViewController {
     func nextInput(){
         // advance index
         displayIndex = 1
+        // change decimal flag
+        hasDot = false
         
     }
     
@@ -163,6 +170,8 @@ class ViewController: UIViewController {
         // now we ask for next input
         nextInput()
         
+       
+        
     }
     
     func reset(){
@@ -200,7 +209,15 @@ class ViewController: UIViewController {
     }
     
     @IBAction func dotPressed(_ sender: Any) {
+        // check to make sure there isn't already
+        // a decimal
+        if hasDot == true{
+            return
+        }
         updateNumber(".")
+        // change flag
+        hasDot = true
+        
     }
     
     @IBAction func sixTapped(_ sender: Any) {
@@ -242,7 +259,18 @@ class ViewController: UIViewController {
         updateDisplay()
         
     }
-    
+    // change the sign of the number
+    // currently displayed
+    @IBAction func changeSignTapped(_ sender: Any) {
+        // check that the displayed number is not zero
+        if lblOutput.text == "0"{
+            return
+        }
+        // convert to double
+        let chgdSign = Double(lstNumbers[displayIndex])! * -1.0
+        lstNumbers[displayIndex] = String(chgdSign)
+        updateDisplay()
+    }
     // clear nubmer list and operation
     @IBAction func allClearTapped(_ sender: Any) {
         displayIndex = 0
@@ -253,7 +281,20 @@ class ViewController: UIViewController {
         lblOutput.text = "0"
         
     }
-    
+    // Here we change the current value to
+    // a percent
+    @IBAction func percentTapped(_ sender: Any) {
+        // check that the displayed number is not zero
+        if lblOutput.text == "0"{
+            return
+        }
+        
+        let percent = Double(lstNumbers[displayIndex])! / 100.0
+        // set the result
+        lstNumbers[displayIndex] = String(percent)
+        // display the result
+        updateDisplay()
+    }
     
 }
 
